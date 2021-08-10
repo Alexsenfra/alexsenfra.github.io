@@ -1,0 +1,102 @@
+/*  1____UNIVERSAL STYLING (To remove browser ones)-------------------------------  */
+
+*, *.before, *.after {margin: 0; padding: 0; box-sizing: border-box;
+
+}
+
+body{
+	font-family: 'Inter', sans-serif;
+	padding: 10% 0% 0% 8%;
+}
+
+
+.contact_container h2{
+	font-family: 'Inter', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-top: 0px;
+}
+
+
+.contact_right{
+	flex-basis: 40%;
+	padding: 40px;
+	background: yellow;
+	color:blue;
+
+}
+
+.contact_container p{
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	padding-top: 5px; 
+}
+
+h2{
+	margin-bottom:10px;
+}
+
+.contact_container p{
+	margin-bottom: 40px;
+}
+
+
+
+.contact_box h3{
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+
+tr td:first-child{
+	padding-right: 20px;
+
+}
+
+tr td{
+	padding-top: 20px;
+}
+
+
+.title{
+	font-family: 'Inter', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-top: 10px;
+
+}
+
+.contact_content{
+	font-family: 'Inter', sans-serif;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+
+
+
+/*  VIEW PORTS!!!	*/
+
+@media screen and (min-width: 778px){
+
+.contact_container h2{
+	padding-top: 5px;
+}
+
+main{
+	justify-content: center;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width: 1200px){
+	
+
+
+}

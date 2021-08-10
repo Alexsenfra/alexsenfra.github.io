@@ -1,0 +1,177 @@
+/*  1____UNIVERSAL STYLING (To remove browser ones)-------------------------------  */
+
+*, *.before, *.after {margin: 0; padding: 0; box-sizing: border-box;
+
+}
+
+
+/*  -----------------------------MOBILE SMALL SCREEN STYLING-------------------------------  */
+			/* 
+					html{
+					scroll-behaviour:smooth;
+					}  */
+
+body{
+	font-family: 'Inter', sans-serif;
+	padding: 10% 0% 0% 8%;
+}
+
+.column{
+	align-content: left;
+	margin-top: 3%;
+}
+
+
+/*  -----------------------------FIRST COLUMN / EDUCATION STYLING-------------------------------  */
+
+h2{
+	font-family: 'Inter', sans-serif;
+	font-size: 15px;
+}
+
+#second_section{
+	padding-top: 8%;
+}
+
+
+.time_year{
+	font-size: 12px;
+	margin: 0;
+	padding: 20px 10px 0 0;
+	color: rgb(15, 76, 130);
+
+}
+
+.name_university{
+	text-transform: uppercase;
+	font-size:14px;
+	padding-top: 3px;
+}
+
+p{
+	font-weight: bold; 
+	font-size: 14px;
+	padding-top: 3px;
+}
+
+.location{
+	font-size:12px;
+	font-style: none;
+	padding-top: 3px;
+
+}
+
+
+/*  -----------------------------SECOND COLUMN / PROFESSIONAL EXPERIENCE STYLING-------------------------------  */
+
+
+#column2{
+	padding-top: 8%;;
+}
+
+
+.name_company{
+	text-transform: uppercase;
+	font-size:14px;
+	padding-top: 3px;
+}
+
+.time_year_insidegroup{
+	font-size: 12px;
+	margin-left: 10px;
+	padding: 10px 10px 0 0;
+	color: rgb(15, 76, 130);
+	padding-top: 4%;
+}
+
+.name_company_insidegroup{
+	text-transform: uppercase;
+	margin-left: 10px;
+	font-size:14px;
+	padding-top: 3px;
+}
+
+.location_insidegroup{
+	font-size:12px;
+	font-style: none;
+	margin-left: 10px;
+	padding-top: 3px;
+}
+
+h3{
+	font-weight: bold; 
+	font-size: 14px;
+	padding-top: 1px;
+	
+}
+.name_role_insidegroup{
+	margin-left: 10px;
+}
+
+#groupprofession2,#groupprofession3, #groupprofession4 {
+	padding-top: 4%
+}
+
+
+
+
+/*  -----------------------------THIRD COLUMN / SKILLS LIST STYLING-------------------------------  */
+
+
+#column3{
+	padding-top: 8%;
+}
+
+.grouplist{
+	margin: 0;
+	padding: 20px 10px 0 0;
+}
+
+.list_skills li{
+	text-transform: uppercase;
+	font-size:14px;
+	padding-top: 3%;
+	list-style-type: none;
+
+}
+
+
+
+/*  VIEW PORTS!!!	*/
+
+@media screen and (min-width: 778px){
+
+body{
+	font-family: 'Inter', sans-serif;
+	padding: 3% 0% 0% 8%;
+}
+
+.column{
+	width: 30%;
+	display: inline-block;
+	float: left;
+	padding-left: 5%;
+
+}
+
+
+
+#column2{
+	padding-top: 0;
+}
+
+#column3{
+	padding-top: 0;
+	padding-right:0;
+}
+
+
+}
+
+
+@media screen and (min-width: 1200px){
+	
+
+
+}
+

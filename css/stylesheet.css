@@ -1,0 +1,209 @@
+/*  1____UNIVERSAL STYLING (To remove browser ones)-------------------------------  */
+
+*, *.before, *.after {margin: 0; padding: 0; box-sizing: border-box;
+
+}
+
+/*  -----------------------------MOBILE SMALL SCREEN STYLING-------------------------------  */
+			/* 
+					html{
+					scroll-behaviour:smooth;
+					}  */
+
+
+
+/* NAV STYLING */
+
+body{
+	/*background-color: red;*/
+	/*background-color: #F9F7EE;*/
+	font-family: 'Inter', sans-serif;
+	padding-top: 7%;
+}
+
+html{
+	background: url() no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+.header{
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left:0;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.nav_ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 20px;
+	list-style: none;
+	background-color: #fff;
+	position:fixed;
+	left:0;
+	top: 40px;
+	width:100%;
+	padding: 20px 0;
+	height: calc(100vh - 40px);
+	overflow-y: auto;
+	left: 100%;
+	transition: left 0.3s;
+
+}
+
+.nav_ul_li{
+	line-height: 40px;
+	padding: 30px 0
+
+}
+
+.nav_ul_li:hover{
+	text-decoration: underline;
+	transition: 0.5s;
+}
+
+a.current_page{
+	text-decoration: underline;
+}
+
+
+
+
+.nav-link{
+	color: rgb(15, 76, 130);
+	text-decoration:none;
+
+}
+
+.logo{
+	font-size: 18px;
+	padding: 0 15px;
+	line-height: 40px;
+}
+
+.copyright{
+	font-family: 'Inter', sans-serif;
+	position:absolute;
+	bottom: 1.875em;
+	left:0;
+	right: 0;
+	text-align: center;
+	font-size: 12px;
+	padding-bottom: 4px;
+
+}
+
+
+footer{
+	height: 40px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left:0;
+}
+
+
+
+
+/* HAMBURGER MENU STYLING */
+
+
+.nav_toogle{
+	display: block;
+	color: rgb(15, 76, 130);
+	background: none;
+	border: none;
+	font-size: 22px;
+	padding: 0 20px;
+	line-height: 40px;
+	cursor:pointer;
+}
+
+.nav_ul-visible{
+	left: 0;
+}
+
+
+.main_containter{
+	height: calc(100vh-80px)
+	margin-top:60px;
+	margin-bottom: 60px;
+}
+
+		
+
+
+/*  VIEW PORTS!!!	*/
+
+@media screen and (min-width: 778px){
+
+
+body{
+	font-family: 'Inter', sans-serif;
+	padding: 7% 1% 0% 1%;
+	
+}
+
+.header{
+	height: 50px;
+}
+
+.logo{
+	font-size: 20px;
+	padding: 0 20px;
+	line-height: 50px;
+}
+
+.nav_ul{
+	display: flex;
+	flex-direction: row;
+	align-items: none;
+	margin-right: 20px;
+	list-style: none;
+	background-color: transparent;
+	position: static;
+	left: auto;
+	top: auto;
+	width: auto;
+	padding: 0;
+	height: auto;
+	overflow-y: none;
+
+}
+
+
+.nav_ul_li{
+	font-size: 15px;
+	margin: 0 20px;
+	line-height: 50px;
+	padding: 0;
+
+}
+
+.nav_ul_li_a{
+padding: 3% 4%;
+
+}
+
+.nav_toogle{
+	display: none;
+	
+}
+
+
+
+@media screen and (min-width: 1200px){
+	
+
+
+}
+
