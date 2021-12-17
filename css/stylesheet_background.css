@@ -16,9 +16,15 @@ body{
 	padding: 10% 0% 0% 8%;
 }
 
+
 .column{
 	align-content: left;
 	margin-top: 3%;
+}
+
+main{
+	margin-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 
@@ -26,7 +32,7 @@ body{
 
 h2{
 	font-family: 'Inter', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 #second_section{
@@ -44,18 +50,18 @@ h2{
 
 .name_university{
 	text-transform: uppercase;
-	font-size:14px;
+	font-size:12px;
 	padding-top: 3px;
 }
 
 p{
 	font-weight: bold; 
-	font-size: 14px;
+	font-size: 12px;
 	padding-top: 3px;
 }
 
 .location{
-	font-size:12px;
+	font-size:11px;
 	font-style: none;
 	padding-top: 3px;
 
@@ -72,7 +78,7 @@ p{
 
 .name_company{
 	text-transform: uppercase;
-	font-size:14px;
+	font-size:12px;
 	padding-top: 3px;
 }
 
@@ -87,12 +93,12 @@ p{
 .name_company_insidegroup{
 	text-transform: uppercase;
 	margin-left: 10px;
-	font-size:14px;
+	font-size:12px;
 	padding-top: 3px;
 }
 
 .location_insidegroup{
-	font-size:12px;
+	font-size:11px;
 	font-style: none;
 	margin-left: 10px;
 	padding-top: 3px;
@@ -100,7 +106,7 @@ p{
 
 h3{
 	font-weight: bold; 
-	font-size: 14px;
+	font-size: 12px;
 	padding-top: 1px;
 	
 }
@@ -109,8 +115,10 @@ h3{
 }
 
 #groupprofession2,#groupprofession3, #groupprofession4 {
-	padding-top: 4%
+	/* padding-top: 4%  */
+
 }
+
 
 
 
@@ -125,12 +133,13 @@ h3{
 .grouplist{
 	margin: 0;
 	padding: 20px 10px 0 0;
+	padding-top:5%;
 }
 
 .list_skills li{
 	text-transform: uppercase;
-	font-size:14px;
-	padding-top: 3%;
+	font-size:12px;
+	padding-top: 2%;
 	list-style-type: none;
 
 }

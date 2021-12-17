@@ -12,10 +12,11 @@ body{
 
 .contact_container h2{
 	font-family: 'Inter', sans-serif;
-	font-size: 15px;
+	font-size: 13px;
 	text-transform: uppercase;
 	padding-top: 0px;
 }
+
 
 
 .contact_right{
@@ -28,13 +29,13 @@ body{
 
 .contact_container p{
 	font-family: 'Inter', sans-serif;
-	font-size: 14px;
-	padding-top: 5px; 
+	font-size: 12px;
 }
 
 h2{
-	margin-bottom:10px;
+	margin-bottom:6px;
 }
+
 
 .contact_container p{
 	margin-bottom: 40px;
@@ -70,8 +71,13 @@ tr td{
 
 .contact_content{
 	font-family: 'Inter', sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	padding-top: 10px;
+}
+
+
+.fa-linkedin-in{
+	margin-left:2%;
 }
 
 
