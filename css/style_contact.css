@@ -98,6 +98,10 @@ tr td{
 main{
 	justify-content: center;
 }
+	
+.main_containter{
+	padding-top: 0px;
+}
 
 
 
