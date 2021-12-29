@@ -27,6 +27,10 @@ body{
 
 }
 
+.main_containter{
+	padding-top: 20px;
+}
+
 .contact_container p{
 	font-family: 'Inter', sans-serif;
 	font-size: 12px;
