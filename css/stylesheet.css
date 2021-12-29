@@ -138,7 +138,7 @@ footer{
 
 
 .main_containter{
-	height: calc(100vh-80px)
+	height: calc(100vh-80px);
 	margin-top:60px;
 	margin-bottom: 60px;
 }
