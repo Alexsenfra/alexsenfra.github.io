@@ -1,0 +1,113 @@
+/*  1____UNIVERSAL STYLING (To remove browser ones)-------------------------------  */
+
+*, *.before, *.after {margin: 0; padding: 0; box-sizing: border-box;
+
+}
+
+
+/*  -----------------------------MOBILE SMALL SCREEN STYLING-------------------------------  */
+			/* 
+					html{
+					scroll-behaviour:smooth;
+					}  */
+
+/*
+body{
+	font-family: 'Inter', sans-serif;
+	padding-top:0%;
+	margin-top:80px;
+}
+*/
+
+body{
+	background-color: white
+	/*background-color: #F9F7EE;*/
+	font-family: 'Inter', sans-serif;
+	padding-top: 7%;
+}
+
+main{
+	display: flex;
+	align-items: center;
+
+}
+
+
+/*  ----------------------------- BASIC STYLING-------------------------------  */
+
+
+.grid_container{
+	width: 100%
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding: 0px;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+
+.grid_container div{
+	flex: auto;
+	width: 300px;
+	overflow: hidden;
+	margin: 8px;
+
+}
+
+
+
+img{
+	width: 100%;
+	height: auto;
+
+}
+
+.grid_item .img_horizontal{
+
+width: 400px;
+	height: auto;
+}
+
+.grid_container div:hover{
+	opacity: 0.9;
+	transition:all ease-in-out 0.3s;
+
+}
+
+/*  ----------------------------- MAIN GRID COLUMN TYLING-------------------------------  */
+
+
+
+
+
+/*  -----------------------------THIRD COLUMN / SKILLS LIST STYLING-------------------------------  */
+
+
+
+
+/*  VIEW PORTS!!!	*/
+
+@media screen and (min-width: 778px){
+
+
+	img{
+	width: 250px;
+	height: auto;
+
+}
+
+.img_horizontal{
+	width: 300px;
+	height: auto;
+}
+
+
+@media screen and (min-width: 1200px){
+	
+
+
+}

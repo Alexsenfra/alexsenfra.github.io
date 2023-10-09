@@ -1,0 +1,170 @@
+/*  1____UNIVERSAL STYLING (To remove browser ones)-------------------------------  */
+
+*, *.before, *.after {margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+	font-family: 'Inter', sans-serif;
+	padding: 10% 0% 0% 8%;
+}
+
+.main_containter{
+	padding-top: 20px;
+}
+
+/* ------Fonts styles------------- */
+.column2 h2{
+	font-family: 'Inter', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding-top: 0px;
+}
+
+.column2 P{
+	font-family: 'Inter', sans-serif;
+	font-size: 12px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+  padding-right: 40px;
+}
+
+.column2 p.credits{
+	font-size: 11px;
+}
+
+h2{
+	margin-bottom:6px;
+}
+
+.container {
+  display: flex;
+  margin: 0 80px; /* Add padding to create space between the columns */
+}
+
+.column {
+  padding: 10px; /* Optional: Add some padding between the columns */
+}
+
+.column1 {
+  flex: 2; /* This makes the first column twice as wide as the second column */
+}
+
+.column2 {
+  flex: 1;
+}
+
+.img_prod {
+  /* Set the width of the image */
+ 
+  width: 400px; /* Adjust this value as needed */
+}
+
+.img_prod_cover {
+  /* Set the width of the image */
+  width: 1210px; /* Adjust this value as needed */
+}
+
+
+/* -----------------------------MOBILE SMALL SCREEN STYLING------------------------------- */
+
+/* Adjust column widths for smaller screens */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -5px; /* Add a small negative margin to reduce space between columns */
+}
+
+.column {
+  padding: 5px; /* Reduce padding between columns on smaller screens */
+}
+
+  .container {
+    flex-direction: row; /* Cambia la dirección del contenedor a fila (horizontal) */
+  }
+  .column1 {
+    flex: 0 0 70%; /* Hace que la columna 1 sea un poco más ancha (60%) que la columna 2 */
+    max-width: none; /* Elimina el ancho máximo de la columna 1 */
+  }
+  .column2 {
+    flex: 0 0 30%; /* Hace que la columna 2 sea un poco más estrecha (40%) que la columna 1 */
+    max-width: none; /* Elimina el ancho máximo de la columna 2 */
+  }
+}
+
+/*
+.column1 {
+  flex: 1;
+  max-width: 50%; /* Esto establece el máximo ancho al 50% de la pantalla */
+ /*
+ margin-right: 20px;*/ /* Agrega un margen derecho entre las columnas */
+/*
+}*/
+
+/*
+.column2{
+  flex: 1;
+  max-width: 50%; /* Esto establece el máximo ancho al 50% de la pantalla */
+  /*
+margin-right: 20px; /* Agrega un margen derecho entre las columnas */
+
+
+/* 
+.column2 {
+  flex: 100%; /* Make the second column full-width on smaller screens */
+    flex: 100%; /* Make the first column full-width on smaller screens */
+}*/
+
+
+/* Adjust font sizes for smaller screens */
+h2 {
+  font-size: 1.8rem; /* Adjust the heading font size for smaller screens */
+  margin-bottom: 6px;
+}
+
+p {
+  font-size: 1.2rem; /* Adjust the paragraph font size for smaller screens */
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.credits {
+  font-size: 1rem; /* Adjust the font size for the credits on smaller screens */
+}
+
+/* Adjust spacing between columns for smaller screens */
+.container {
+  margin: 0 -5px; /* Add a small negative margin to reduce space between columns */
+}
+
+.column {
+  padding: 5px; /* Reduce padding between columns on smaller screens */
+}
+
+.img_prod_cover {
+  /* Set the width of the image */
+  width: 400px; /* Adjust this value as needed */
+}
+.img_prod_cover,
+.img_prod {
+  max-width: 100%; /* Set the maximum width of the images to 100% */
+  height: auto; /* Let the height adjust automatically to maintain the aspect ratio */
+}
+
+/* Move text to the top of the image on smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .column1,
+  .column2 {
+    max-width: 100%; /* Ocupar toda la anchura disponible en pantallas pequeñas */
+  }
+
+  .column1, .column2 {
+    order: unset;
+  }
+
+  .column2 {
+    padding-top: 20px; /* Add some padding to separate the text from the image */
+  }
+}
